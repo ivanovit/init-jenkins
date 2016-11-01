@@ -7,8 +7,8 @@ multibranchPipelineJob(multibranchPipelineJobName) {
                 gitHubSCMSource {
                     repoOwner('ivanovit')
                     repository('TestJenkins')
-                    scanCredentialsId('GG3')
-                    checkoutCredentialsId('GG3')
+                    scanCredentialsId('github_standart_credentials_id')
+                    checkoutCredentialsId('github_standart_credentials_id')
                   	buildOriginBranch(true)
                   	buildOriginBranchWithPR(false)
                   	buildOriginPRMerge(true)
